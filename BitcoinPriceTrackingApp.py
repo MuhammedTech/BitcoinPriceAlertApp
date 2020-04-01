@@ -18,7 +18,7 @@ def get_price():
     price = div
     while True:
           if price < str(5.000):
-             time.sleep(60 * 120) #it will check every for bitcoin price every 2 hours
+             time.sleep(60 * 120) #it will check for bitcoin price every 2 hours
              print(price)
              send_email()
              break
