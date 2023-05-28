@@ -30,7 +30,7 @@ def send_email():
     server.starttls()
     server.ehlo()
 
-    server.login('alimbetov.mo@gmail.com','oikdxmkccrdgevkn')
+    server.login('alimbetov.mo@gmail.com','password')
     subject = 'Bitcoin gone down'
     body = price
     msg = f"Subject:{subject}\n\nCurrent bitcoin price is: ${body}"
